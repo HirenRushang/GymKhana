@@ -1,0 +1,124 @@
+.searchbar-wrapper {
+  max-width: 100%;
+}
+
+.searchbar-wrapper .searchbar-section {
+  max-width: 1440px;
+  padding-top: 50px;
+}
+
+.searchbar-wrapper .searchbar-section .searchbar-title {
+  text-align: center;
+}
+
+.searchbar-wrapper .searchbar-section .userinput-box {
+  text-align: center;
+}
+
+.searchbar-wrapper .searchbar-section .searchbar-title p {
+  font-size: 42px;
+  font-weight: 500;
+}
+
+.searchbar-wrapper .searchbar-section .userinput-box input {
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 10px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.searchbar-wrapper .searchbar-section .userinput-box button {
+  background: #26b5f9;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  width: 123px;
+  color: white;
+  margin-left: 1px;
+}
+
+.searchbar-wrapper .searchbar-section .userinput-box button:hover {
+  color: #26b5f9;
+  background-color: white;
+  border: 1px solid gray;
+}
+.searchbar-wrapper .searchbar-section .userinput-box ::placeholder {
+  padding-left: 20px;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  overflow: hidden;
+}
+
+/* BODYPARTCARD */
+
+.body-part-carousel {
+  margin-top: 100px !important;
+}
+
+.bodypart-Card {
+  height: 150px;
+  width: 207px;
+
+  text-align: center;
+  margin: 0 20px;
+  text-transform: capitalize;
+  transition: all 1s ease-in-out;
+}
+
+.bodypart-Card:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+
+.bodypart-Card img {
+  height: 40px;
+  width: 40px;
+  margin-top: 54px;
+  margin-bottom: 20px;
+}
+
+.bodypart-Card .card-text {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 420px) {
+  .searchbar-wrapper .searchbar-section .searchbar-title p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .searchbar-wrapper .searchbar-section .userinput-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .searchbar-wrapper .searchbar-section .userinput-box input {
+    width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .searchbar-wrapper .searchbar-section .userinput-box ::placeholder {
+    padding-left: 14px;
+  }
+
+  .searchbar-wrapper .searchbar-section .userinput-box button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .bodypart-Card {
+   
+    margin: 0;
+    
+  }
+
+  
+}

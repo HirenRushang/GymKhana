@@ -1,0 +1,53 @@
+.excercisedetail-wrapper {
+  max-width: 100%;
+}
+
+.excercisedetail-wrapper .excercisedetail-section {
+  max-width: 1440px;
+  padding-top: 60px;
+}
+
+.excercisedetail-wrapper .excercisedetail-section .excercise-info .title {
+  font-size: 26px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.excercisedetail-wrapper
+  .excercisedetail-section
+  .excercise-info
+  .detailwith-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.excercisedetail-wrapper
+  .excercisedetail-section
+  .excercise-info
+  .detailwith-icon
+  img {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .excercisedetail-wrapper .excercisedetail-section .excercise-icon {
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
+  .excercisedetail-wrapper .excercisedetail-section {
+    padding-top: 10px;
+  }
+
+  .excercisedetail-wrapper .excercisedetail-section .excercise-info .title {
+    font-size: 20px;
+  }
+
+  .excercisedetail-wrapper
+    .excercisedetail-section
+    .excercise-info
+    .excercise-about {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,85 @@
+.excercise-wrapper{
+    max-width: 100%;
+}
+
+.excercise-wrapper .excercise-section{
+    max-width: 1440px;
+    padding-top: 100px;
+}
+
+.excercise-wrapper .excercise-section .excercise-showing-result{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.excercise-wrapper .excercise-section .card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.excercise-wrapper .excercise-section .card-wrapper .excercise-card{
+    width: 450px;
+    height: 550px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 20%) 0px 5px 10px;
+    border-radius: 10px;
+    border-top: 1px solid rgb(215, 113, 113);
+    border-bottom: 1px solid rgb(215, 113, 113);
+}
+
+.excercise-wrapper .excercise-section .card-wrapper .excercise-card .btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.excercise-wrapper .excercise-section .card-wrapper .excercise-card .body-part{
+    background: #4177a7;
+    width: 125px;
+    border: none;
+    border-radius: 10px;
+    height: 64px;
+    text-transform: capitalize;
+}
+
+.excercise-wrapper .excercise-section .card-wrapper .excercise-card .body-target{
+    background: #aa60b7;
+    width: 125px;
+    border: none;
+    border-radius: 10px;
+    height: 64px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.excercise-wrapper .excercise-section .card-wrapper .excercise-card .excercise-name p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.excercise-wrapper .excercise-section .pagination-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width:420px){
+    .excercise-wrapper .excercise-section .excercise-showing-result{
+        font-size: 20px;
+        
+    }
+}
+
+

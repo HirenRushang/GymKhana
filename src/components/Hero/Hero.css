@@ -1,0 +1,121 @@
+.hero-wrapper{
+   max-width: 100%;
+}
+
+.hero-wrapper .hero-section{
+    max-width: 1440px;
+}
+
+.hero-wrapper .hero-section .hero-banner-text {
+    padding-top: 28%;
+}
+
+.hero-wrapper .hero-section .hero-banner-text p:first-child{
+     font-size: 22px;
+     color: brown;
+}
+
+.hero-wrapper .hero-section .hero-banner-text .slogan{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero-wrapper .hero-section .hero-banner-text button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+.hero-wrapper .hero-section .hero-banner-img img{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 40%;
+    height: 750px;
+    z-index: 1;
+}
+
+.hero-wrapper .hero-section .hero-banner-big-text p{
+    font-size: 165px;
+    color: #ff00001f;
+    margin-left: 48px;
+    margin-top: 128px;
+
+}
+@media only screen and (max-width: 1360px) {
+    .hero-wrapper .hero-section .hero-banner-big-text p{
+        font-size: 100px;
+    }
+    .hero-wrapper .hero-section .hero-banner-img img {
+       
+        width: 37%;
+        height: 550px;
+        z-index: 1;
+    }
+
+    .hero-wrapper .hero-section .hero-banner-big-text p{
+        margin-left: 191px;
+        margin-top: 11px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1200px){
+    .hero-wrapper .hero-section .hero-banner-big-text p{
+        margin-left: 50px;
+        margin-top: 11px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .hero-wrapper .hero-section .hero-banner-img img {
+       
+       
+        height: 450px;
+       
+    }
+}
+
+@media only screen and (max-width: 868px){
+    .hero-wrapper .hero-section .hero-banner-img img {
+       
+       width: 44%;
+    }
+    .hero-wrapper .hero-section .hero-banner-big-text p{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .hero-wrapper .hero-section .hero-banner-big-text{
+        display: none;
+    }
+
+    .hero-wrapper .hero-section .hero-banner-img{
+       display: none;
+    }
+
+    .hero-wrapper .hero-section .hero-banner-text {
+        padding-top: 10%;
+    }
+
+    .hero-wrapper .hero-section .hero-banner-text p:first-child{
+        font-size: 18px;
+       
+   }
+   
+   .hero-wrapper .hero-section .hero-banner-text .slogan{
+       font-size: 20px;
+      
+   }
+   .hero-wrapper .hero-section .hero-banner-text button{
+     font-size: 14px;
+}
+}
